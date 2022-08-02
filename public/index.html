@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QOD (Quotes Of the Day) | Adhitya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <div class="box mx-auto mt-16 w-96 h-auto p-5 rounded-lg bg-white">
+      <div class="w-full font-bold text-center text-4xl">Quotes of the day</div>
+      <div class="text-center my-10 w-full font-bold">
+        <i class="fa-solid fa-quote-left"></i>
+        <span class="quoteBox text-cyan-900"></span>
+        <i class="fa-solid fa-quote-right"></i>
+        <div class="mt-14 text-cyan-900 author"></div>
+      </div>
+      <div class="bawah justify-center w-full p-2 border-t-2">
+        <button class="buttonBawah cc" onclick="sound()">Sound</button>
+        <button class="buttonBawah" onclick="copyText()">Copy</button>
+        <button class="buttonBawah" onclick="getQuotes()">Next</button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="dist/script.js"></script>
+  </body>
+</html>
